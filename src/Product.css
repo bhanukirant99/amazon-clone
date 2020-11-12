@@ -1,0 +1,39 @@
+.product_rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-width: 100px;
+    margin: 10px;
+    background-color: white;
+    z-index: 1;
+    padding: 20px;
+    width: 100%;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+}
+
+.product > img {
+    width:100px;
+    max-height:200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product_price {
+    margin-top: 5px; 
+}
+
+.product_info {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.product > button {
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734;
+}
